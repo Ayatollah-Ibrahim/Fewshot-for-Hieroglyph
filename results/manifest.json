@@ -1,0 +1,48 @@
+{
+  "run_id": "HPGN_Small_Aya_42_20251226-115432",
+  "model_name": "HPGN_Small",
+  "experimenter": "Aya",
+  "config": {
+    "MODEL_NAME": "HPGN_Small",
+    "EXPERIMENTER": "Aya",
+    "DATA_ROOT": "/kaggle/working/Processed",
+    "SAVE_ROOT": "/kaggle/working/results",
+    "N_WAY": 5,
+    "K_SHOT_LIST": [
+      1,
+      5
+    ],
+    "Q_QUERY": 5,
+    "EPISODES_PER_EPOCH": 1000,
+    "META_BATCH_SIZE": 1,
+    "VAL_EPISODES": 500,
+    "TEST_EPISODES": 2000,
+    "LR": 0.0001,
+    "WEIGHT_DECAY": 0.0001,
+    "MAX_EPOCHS": 50,
+    "PATIENCE": 8,
+    "SEED": 42,
+    "PRINT_EVERY": 100,
+    "SAVE_EVERY_EPOCHS": 1,
+    "NOTES": "Simplified HPGN for small hieroglyph dataset with strong regularization",
+    "RUN_ID": "HPGN_Small_Aya_42_20251226-115432"
+  },
+  "results": [
+    {
+      "n_way": 5,
+      "k_shot": 1,
+      "mean_acc": 0.8648157592604011,
+      "ci_lower": 0.8601599789813161,
+      "ci_upper": 0.8694814793352038,
+      "num_episodes": 2000
+    },
+    {
+      "n_way": 5,
+      "k_shot": 5,
+      "mean_acc": 0.9567475053544044,
+      "ci_lower": 0.9543399847723544,
+      "ci_upper": 0.9590209861591458,
+      "num_episodes": 2000
+    }
+  ]
+}
