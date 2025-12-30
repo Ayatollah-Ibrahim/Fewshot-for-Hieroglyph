@@ -31,11 +31,11 @@ This project is publicly available on Kaggle:
 ### 5-Way Classification Performance
 
 
-| 1-Shot | 85.18% (CI: 84.70-85.61)
-| 5-Shot | 94.84% (CI: 94.61-95.08)
+| 1-Shot | 86.48% (CI: 86.01-86.95)
+| 5-Shot | 95.67% (CI: 95.43-95.90)
 
 
-*Evaluated on 20,000 episodes with 95% confidence intervals*
+*Evaluated on 2000 episodes with 95% confidence intervals*
 
 ## Installation
 
@@ -112,6 +112,8 @@ python scripts/evaluate.py \
 3. **Graph Neural Network**: GAT-based prototype refinement
 4. **Distance-based Classification**: Euclidean distance to class prototypes
 
+Detailed Documentation at Docs/Architecture_Design
+
 ### Data Processing Pipeline
 
 ```
@@ -168,10 +170,10 @@ python -m src.utils.visualization \
 If you use this code in your research, please cite:
 
 ```bibtex
-@misc{hieroglyphic-fsl-2024,
+@misc{hieroglyphic-fsl-2025,
   author = {Ayatollah Ibrahim},
   title = {Egyptian Hieroglyphic Few-Shot Learning with HPGN},
-  year = {2024},
+  year = {2025},
   publisher = {GitHub},
   url = {https://github.com/Ayatollah-Ibrahim/Fewshot-for-Hieroglyph}
 }
