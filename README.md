@@ -21,6 +21,10 @@ This project addresses the challenge of classifying rare Egyptian hieroglyphic s
 - Prototype visualization and interpretability tools
 - Robust training with early stopping and regularization
 
+## Notebook
+Available on Kaggle (Public)
+[Link Text]([https://example-website.com](https://www.kaggle.com/code/ayatollahelkolally/hpgn-80-90?scriptVersionId=288534101))
+
 ## Results
 
 ### 5-Way Classification Performance
