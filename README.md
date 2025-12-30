@@ -23,7 +23,7 @@ This project addresses the challenge of classifying rare Egyptian hieroglyphic s
 
 ## Notebook
 Available on Kaggle (Public)
-[Link Text]([https://example-website.com](https://www.kaggle.com/code/ayatollahelkolally/hpgn-80-90?scriptVersionId=288534101))
+[Link Text]([https://www.kaggle.com/code/ayatollahelkolally/hpgn-80-90?scriptVersionId=288534101])
 
 ## Results
 
