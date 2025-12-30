@@ -79,9 +79,11 @@ kagglehub>=0.1.0
 
 ### Data Preparation
 
+Download data: https://www.kaggle.com/datasets/mennaalaarasslan/egyptian-hieroglyphic-text
+
 ```bash
 # Download dataset (requires Kaggle authentication)
-python scripts/preprocess_data.py --data_dir /path/to/data
+python scripts/processing_data.py --data_dir /path/to/data
 ```
 
 ### Training
